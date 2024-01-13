@@ -2,15 +2,10 @@
 
 A new Haulier Tracking app.
 
-## Getting Started
+## House Keeping (File Naming Conventions)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- `data.dart`: for handling data storage
+- `util.dart`: common useful functions
+- `main.dart`: the main app, literally
+- `view_*.dart`: page view for app, 1 page per file
+- `widget_*.dart`: components that are used in `view_*.dart`s
