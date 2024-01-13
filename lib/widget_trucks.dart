@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:haulier/data.dart';
 import 'package:haulier/view_truck.dart';
 import 'package:haulier/widget_buttons.dart';
-
-import 'data.dart';
 
 class TruckListView extends StatefulWidget {
   final Function refresh;

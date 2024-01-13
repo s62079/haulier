@@ -1,10 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+import 'package:haulier/data.dart';
 import 'package:haulier/util.dart';
 import 'package:haulier/view_home.dart';
-
-import 'data.dart';
 
 // https://stackoverflow.com/questions/29628989
 extension StringExtension on String {

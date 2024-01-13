@@ -4,10 +4,9 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
+import 'package:haulier/data.dart';
 import 'package:haulier/util.dart';
 import 'package:haulier/view_location.dart';
-
-import 'data.dart';
 
 class SchedulePage extends StatefulWidget {
   final Map<String, dynamic>? editSchedule;

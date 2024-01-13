@@ -1,9 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:haulier/data.dart';
 import 'package:haulier/util.dart';
 import 'package:haulier/view_login.dart';
-
-import 'data.dart';
 
 class UserPage extends StatefulWidget {
   const UserPage({super.key});

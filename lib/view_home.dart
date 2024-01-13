@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+import 'package:haulier/data.dart';
 import 'package:haulier/util.dart';
 import 'package:haulier/view_login.dart';
 import 'package:haulier/view_user.dart';
@@ -7,8 +7,6 @@ import 'package:haulier/widget_buttons.dart';
 import 'package:haulier/widget_schedules.dart';
 import 'package:haulier/widget_statistic.dart';
 import 'package:haulier/widget_trucks.dart';
-
-import 'data.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

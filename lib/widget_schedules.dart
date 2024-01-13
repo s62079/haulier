@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:haulier/data.dart';
 import 'package:haulier/util.dart';
 import 'package:haulier/view_schedule.dart';
-
-import 'data.dart';
 
 class ScheduleListView extends StatefulWidget {
   const ScheduleListView({super.key});

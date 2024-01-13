@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:haulier/data.dart';
 import 'package:haulier/util.dart';
 import 'package:pie_chart/pie_chart.dart';
-
-import 'data.dart';
 
 class TruckUtilView extends StatefulWidget {
   const TruckUtilView({super.key});

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:haulier/data.dart';
 import 'package:haulier/util.dart';
-
-import 'data.dart';
 
 class TruckPage extends StatefulWidget {
   final Map<String, dynamic>? editTruck;
